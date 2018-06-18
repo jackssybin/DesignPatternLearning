@@ -2,36 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b50b294-7a7a-40fc-838d-b7c6b30ee7ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlyWeight/FlyWeight.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlyWeight/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlyWeight/src/ConcreteFlyweight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlyWeight/src/Flyweight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlyWeight/src/FlyweightFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlyWeight/src/Program.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlyWeight/src/UnsharedConcreteFlyweight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlyWeight/uml/FlyWeight.puml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interpreter/Interpreter.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interpreter/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interpreter/src/AbstractExpression.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interpreter/src/Context.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interpreter/src/NonterminalExpression.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interpreter/src/Program.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interpreter/src/TerminalExpression.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interpreter/uml/Interpreter.puml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mediator/Mediator.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mediator/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mediator/src/Colleague.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mediator/src/ConcreteColleague1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mediator/src/ConcreteMediator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mediator/src/Mediator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mediator/src/Program.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mediator/uml/Mediator.puml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProxyPattern/uml/GiveGift.uml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProxyPattern/uml/diagram.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Visitor/Visitor.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Visitor/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Visitor/src/ConcreteElementA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Visitor/src/ConcreteElementB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Visitor/src/ConcreteVisitor1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Visitor/src/ConcreteVisitor2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Visitor/src/Element.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Visitor/src/ObjectStructure.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Visitor/src/Program.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Visitor/src/Visitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Visitor/uml/Visitor.puml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Observer/readme.md" afterPath="$PROJECT_DIR$/Observer/readme.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,9 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FactoryMethod/uml/FactoryMethod.puml" />
-        <option value="$PROJECT_DIR$/FactoryMethod/readme.md" />
-        <option value="$PROJECT_DIR$/AbstractFactory/readme.md" />
         <option value="$PROJECT_DIR$/Singleton/src/EagerSingleton.java" />
         <option value="$PROJECT_DIR$/TemplateMethod/readme.md" />
         <option value="$PROJECT_DIR$/Builder/src/PersonBuilder.java" />
@@ -131,6 +111,9 @@
         <option value="$PROJECT_DIR$/Interpreter/uml/Interpreter.puml" />
         <option value="$PROJECT_DIR$/Interpreter/src/Program.java" />
         <option value="$PROJECT_DIR$/Interpreter/readme.md" />
+        <option value="$PROJECT_DIR$/Visitor/src/ConcreteElementA.java" />
+        <option value="$PROJECT_DIR$/Visitor/readme.md" />
+        <option value="$PROJECT_DIR$/Visitor/uml/Visitor.puml" />
       </list>
     </option>
   </component>
@@ -183,7 +166,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleFactory" />
+              <option name="myItemId" value="Visitor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -193,17 +176,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Interpreter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interpreter" />
+              <option name="myItemId" value="Visitor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -217,11 +190,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Interpreter" />
+              <option name="myItemId" value="Visitor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleFactory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,7 +218,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Interpreter/uml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Visitor/uml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15895523" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -248,11 +231,11 @@
       <recent name="E:\GitHub\Demo\DesignPattern\templateMethod\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\DesignPatternLearning\DesignPattern\Visitor" />
+      <recent name="E:\GitHub\DesignPatternLearning\DesignPattern\Visitor\src" />
       <recent name="E:\GitHub\DesignPatternLearning\DesignPattern\Interpreter" />
       <recent name="E:\GitHub\DesignPatternLearning\DesignPattern\Interpreter\src" />
       <recent name="E:\GitHub\DesignPatternLearning\DesignPattern\FlyWeight" />
-      <recent name="E:\GitHub\DesignPatternLearning\DesignPattern\FlyWeight\src" />
-      <recent name="E:\GitHub\DesignPatternLearning\DesignPattern\Mediator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -564,17 +547,17 @@
       <workItem from="1521558644146" duration="1917000" />
       <workItem from="1526316791826" duration="15000" />
       <workItem from="1529276893535" duration="13187000" />
-      <workItem from="1529291830610" duration="2763000" />
+      <workItem from="1529291830610" duration="4314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20985000" />
+    <option name="totallyTimeSpent" value="22536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44704992" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4591528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -584,7 +567,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="MyBatis Sql Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4462935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20726173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15322581" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -627,66 +610,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Command/src/ConcreteCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Command/src/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Command/src/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Command/src/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Command/src/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Command/Command.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Command/uml/Command.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Command/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChainOfResponsibility/uml/SimpleFactory.png" />
     <entry file="file://$PROJECT_DIR$/ChainOfResponsibility/src/ConcreteHandler2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1066,6 +989,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Visitor/uml/SimpleFactory.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visitor/src/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visitor/src/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visitor/src/ConcreteElementA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visitor/src/ObjectStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visitor/uml/Visitor.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visitor/uml/Visitor.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visitor/Visitor.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visitor/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1129,7 +1121,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Interpreter</last-edited>
+          <last-edited>Visitor</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
